@@ -1,0 +1,16 @@
+{
+  "name": "aws-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "proxy": "node proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "http-proxy-middleware": "^2.0.1",
+    "multer": "^1.4.3"
+  }
+}
